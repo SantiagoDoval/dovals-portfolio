@@ -1,17 +1,18 @@
 import React from 'react'
 import { Menu } from '../../Components/Menu/Menu'
+import { Cover } from './Cover'
+import AboutH from './AboutH'
+import Footer from '../../Components/Footer/Footer'
+import Skills from '../../Components/Skills/Skills'
 
 const Home = () => {
   return (
     <>
       <Menu />
-      <div className='container'>
-        <div className='home-seccion-1'>
-          <h2 className='title-cover'> Hola Soy Santiago!</h2>
-          <p>Ingeniero y productor en Multimedia || Frontend Developer</p>
-        </div>
-
-      </div>
+      <Cover />
+      <AboutH />
+      <Skills/>
+      <Footer />
     </>
   )
 }
