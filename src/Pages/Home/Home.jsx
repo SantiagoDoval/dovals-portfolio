@@ -4,6 +4,7 @@ import { Cover } from './Cover'
 import AboutH from './AboutH'
 import Footer from '../../Components/Footer/Footer'
 import Skills from '../../Components/Skills/Skills'
+import WorkH from './WorkH'
 
 const Home = () => {
   return (
@@ -11,7 +12,7 @@ const Home = () => {
       <Menu />
       <Cover />
       <AboutH />
-      <Skills/>
+      <WorkH />
       <Footer />
     </>
   )

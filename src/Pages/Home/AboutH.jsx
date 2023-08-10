@@ -1,4 +1,5 @@
 import React from 'react'
+import Skills from '../../Components/Skills/Skills'
 
 const AboutH = () => {
     return (
@@ -14,6 +15,7 @@ const AboutH = () => {
                     </div>
                 </div>
             </div>
+            <Skills />
         </>
     )
 }
